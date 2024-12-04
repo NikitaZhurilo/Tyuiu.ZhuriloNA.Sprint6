@@ -140,6 +140,7 @@
             // 
             // buttonHelp_ZNA
             // 
+            buttonHelp_ZNA.BackColor = SystemColors.Control;
             buttonHelp_ZNA.Font = new Font("Segoe UI", 15F);
             buttonHelp_ZNA.Location = new Point(546, 399);
             buttonHelp_ZNA.Name = "buttonHelp_ZNA";
@@ -147,7 +148,7 @@
             buttonHelp_ZNA.TabIndex = 3;
             buttonHelp_ZNA.Text = "?";
             buttonHelp_ZNA.TextAlign = ContentAlignment.TopCenter;
-            buttonHelp_ZNA.UseVisualStyleBackColor = true;
+            buttonHelp_ZNA.UseVisualStyleBackColor = false;
             buttonHelp_ZNA.Click += buttonHelp_ZNA_Click;
             // 
             // buttonPerform_ZNA
