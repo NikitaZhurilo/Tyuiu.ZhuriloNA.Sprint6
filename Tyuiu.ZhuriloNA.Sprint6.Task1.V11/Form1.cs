@@ -38,21 +38,6 @@ namespace Tyuiu.ZhuriloNA.Sprint6.Task1.V11
             }
         }
 
-        //private void textBoxInputStart_ZNA_KeyPress(object sender, KeyPressEventArgs e)
-        //{
-        //    if ((e.KeyChar <= 47 || e.KeyChar >= 58 || e.KeyChar == 45) && (e.KeyChar != ',') && (e.KeyChar != 8))
-        //    {
-        //        e.Handled = true;
-        //    }
-        //}
-
-        //private void textBoxInputEnd_ZNA_KeyPress(object sender, KeyPressEventArgs e)
-        //{
-        //    if ((e.KeyChar <= 45 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
-        //    {
-        //        e.Handled = true;
-        //    }
-        //}
 
         private void buttonReference_ZNA_Click(object sender, EventArgs e)
         {
