@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using tyuiu.cources.programming.interfaces.Sprint6;
-namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V11.Lib
+namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V23.Lib
 {
-    public class DataService : ISprint6Task2V11
+    public class DataService : ISprint6Task2V23
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {

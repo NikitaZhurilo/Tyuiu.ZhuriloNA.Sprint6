@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V11
+﻿namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V23
 {
     partial class Form1
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             groupBoxOne_ZNA = new GroupBox();
             labelCondition_ZNA = new Label();
             groupBoxTwo_ZNA = new GroupBox();
@@ -42,8 +42,8 @@
             groupBoxThree_ZNA = new GroupBox();
             chartFunction_ZNA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             dataGridViewFunction_ZNA = new DataGridView();
-            X = new DataGridViewTextBoxColumn();
-            Y = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
             labelResult_ZNA = new Label();
             groupBoxOne_ZNA.SuspendLayout();
             groupBoxTwo_ZNA.SuspendLayout();
@@ -98,9 +98,6 @@
             buttonPerform_ZNA.Text = "Выполнить";
             buttonPerform_ZNA.UseVisualStyleBackColor = false;
             buttonPerform_ZNA.Click += buttonPerform_ZNA_Click;
-            buttonPerform_ZNA.MouseDown += buttonPerform_ZNA_MouseDown;
-            buttonPerform_ZNA.MouseEnter += buttonPerform_ZNA_MouseEnter;
-            buttonPerform_ZNA.MouseLeave += buttonPerform_ZNA_MouseLeave;
             // 
             // buttonReference_ZNA
             // 
@@ -112,7 +109,6 @@
             buttonReference_ZNA.Text = "Справка";
             buttonReference_ZNA.UseVisualStyleBackColor = false;
             buttonReference_ZNA.Click += buttonReference_ZNA_Click;
-            buttonReference_ZNA.MouseEnter += buttonReference_ZNA_MouseEnter;
             // 
             // textBoxInputEnd_ZNA
             // 
@@ -156,44 +152,44 @@
             groupBoxThree_ZNA.Font = new Font("Segoe UI", 12F);
             groupBoxThree_ZNA.Location = new Point(562, 12);
             groupBoxThree_ZNA.Name = "groupBoxThree_ZNA";
-            groupBoxThree_ZNA.Size = new Size(641, 426);
+            groupBoxThree_ZNA.Size = new Size(621, 426);
             groupBoxThree_ZNA.TabIndex = 1;
             groupBoxThree_ZNA.TabStop = false;
             groupBoxThree_ZNA.Text = "Вывод данных";
             // 
             // chartFunction_ZNA
             // 
-            chartArea1.Name = "ChartArea1";
-            chartFunction_ZNA.ChartAreas.Add(chartArea1);
-            chartFunction_ZNA.Location = new Point(234, 49);
+            chartArea2.Name = "ChartArea1";
+            chartFunction_ZNA.ChartAreas.Add(chartArea2);
+            chartFunction_ZNA.Location = new Point(227, 49);
             chartFunction_ZNA.Name = "chartFunction_ZNA";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Name = "Series1";
-            chartFunction_ZNA.Series.Add(series1);
-            chartFunction_ZNA.Size = new Size(401, 371);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Name = "Series1";
+            chartFunction_ZNA.Series.Add(series2);
+            chartFunction_ZNA.Size = new Size(388, 371);
             chartFunction_ZNA.TabIndex = 2;
             chartFunction_ZNA.Text = "chart1";
             // 
             // dataGridViewFunction_ZNA
             // 
             dataGridViewFunction_ZNA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewFunction_ZNA.Columns.AddRange(new DataGridViewColumn[] { X, Y });
+            dataGridViewFunction_ZNA.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2 });
             dataGridViewFunction_ZNA.Location = new Point(6, 49);
             dataGridViewFunction_ZNA.Name = "dataGridViewFunction_ZNA";
             dataGridViewFunction_ZNA.RowHeadersVisible = false;
-            dataGridViewFunction_ZNA.Size = new Size(204, 371);
+            dataGridViewFunction_ZNA.Size = new Size(202, 371);
             dataGridViewFunction_ZNA.TabIndex = 1;
             // 
-            // X
+            // Column1
             // 
-            X.HeaderText = "X";
-            X.Name = "X";
+            Column1.HeaderText = "X";
+            Column1.Name = "Column1";
             // 
-            // Y
+            // Column2
             // 
-            Y.HeaderText = "F(X)";
-            Y.Name = "Y";
+            Column2.HeaderText = "F(X)";
+            Column2.Name = "Column2";
             // 
             // labelResult_ZNA
             // 
@@ -208,7 +204,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1215, 450);
+            ClientSize = new Size(1195, 450);
             Controls.Add(groupBoxTwo_ZNA);
             Controls.Add(groupBoxThree_ZNA);
             Controls.Add(groupBoxOne_ZNA);
@@ -239,8 +235,8 @@
         private TextBox textBoxInputEnd_ZNA;
         private TextBox textBoxInputStart_ZNA;
         private DataGridView dataGridViewFunction_ZNA;
-        private DataGridViewTextBoxColumn X;
-        private DataGridViewTextBoxColumn Y;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction_ZNA;
     }
 }

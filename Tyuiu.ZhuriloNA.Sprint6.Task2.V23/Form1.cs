@@ -1,5 +1,5 @@
-using Tyuiu.ZhuriloNA.Sprint6.Task2.V11.Lib;
-namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V11
+using Tyuiu.ZhuriloNA.Sprint6.Task2.V23.Lib;
+namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V23
 {
     public partial class Form1 : Form
     {

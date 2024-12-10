@@ -17,13 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.ZhuriloNA.Sprint6.Task2.V11.Lib\Tyuiu.ZhuriloNA.Sprint6.Task2.V11.Lib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Tyuiu.ZhuriloNA.Sprint6.Task2.V23.Lib\Tyuiu.ZhuriloNA.Sprint6.Task2.V23.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

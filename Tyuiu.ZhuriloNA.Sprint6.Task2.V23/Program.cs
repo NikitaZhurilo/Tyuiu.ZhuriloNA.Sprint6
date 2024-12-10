@@ -1,4 +1,4 @@
-namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V11
+namespace Tyuiu.ZhuriloNA.Sprint6.Task2.V23
 {
     internal static class Program
     {
