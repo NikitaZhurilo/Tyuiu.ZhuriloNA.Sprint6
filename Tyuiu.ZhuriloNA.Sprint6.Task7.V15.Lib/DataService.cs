@@ -28,7 +28,7 @@ namespace Tyuiu.ZhuriloNA.Sprint6.Task7.V15.Lib
 
             for (int r = 0; r < rows_1; r++)
             {
-                for (int c = 7; c <= 7; c++)
+                for (int c = 6; c <= 6; c++)
                 {
                     if ((array[r, c] < 10) && (array[r, c] % 3 == 0) && (array[r, c] != 0))
                     {
