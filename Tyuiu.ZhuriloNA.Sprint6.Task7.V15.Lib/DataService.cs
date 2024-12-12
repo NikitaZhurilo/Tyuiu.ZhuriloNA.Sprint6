@@ -30,7 +30,7 @@ namespace Tyuiu.ZhuriloNA.Sprint6.Task7.V15.Lib
             {
                 for (int c = 7; c <= 7; c++)
                 {
-                    if ((array[r, c] < 10) && (array[r, c] % 3 == 0))
+                    if ((array[r, c] < 10) && (array[r, c] % 3 == 0) && (array[r, c] != 0))
                     {
                         array[r, c] = 3;
                     }
