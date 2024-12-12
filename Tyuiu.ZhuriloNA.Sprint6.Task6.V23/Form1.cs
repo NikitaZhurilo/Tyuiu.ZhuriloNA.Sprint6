@@ -20,7 +20,7 @@ namespace Tyuiu.ZhuriloNA.Sprint6.Task6.V23
         private void button2_Click(object sender, EventArgs e)
         {
             string str = "s";
-            textBox2.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBox2.Text = ds.CollectTextFromFile(openFilePath);
         }
     }
 }
